@@ -1,9 +1,4 @@
-
-.pt-serif-regular {
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 :root {
     --primary-color: #846A6A;
@@ -14,7 +9,7 @@
     --heading-font: 'PT Serif', serif;
     --paragraph-font: 'PT Serif', serif;
 
-    --nav-backgroun-color: #A2999E;
+    --nav-background-color: #A2999E;
     --nav-link-color: #353B3C;
     --nav-hover-link-color: #353B3C;
     --nav-hover-background-color: #C6C7C4;
