@@ -35,7 +35,10 @@ article {
     opacity: 0.3;
 }
 article img {
-    position: right;
+    position: relative;
+}
+div class {
+    position: relative;
 }
 
 header {
