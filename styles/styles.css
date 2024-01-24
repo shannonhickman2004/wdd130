@@ -37,9 +37,9 @@ aside {
     padding: 35;
 }
 aside h2 {
+    position: absolute;
     top: 4px;
-    left: 150px;
-    position: absolute
+    left: 150px;  
 }
 aside img {
     width: 200px;
