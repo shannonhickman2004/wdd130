@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+    --primary-color: #846A6A;
+    --secondary-color: #A2999E;
+    --accent1-color: #C6C7C4;
+    --accent2-color: #EEF0F2;
+
+    --heading-font: 'PT Serif', serif;
+    --paragraph-font: 'PT Serif', serif;
+
+    --nav-background-color: #A2999E;
+    --nav-link-color: #353B3C;
+    --nav-hover-link-color: #353B3C;
+    --nav-hover-background-color: #C6C7C4;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h1 {
+    position: absolute;
+}
+article {
+    position: absolute;
+    opacity: 0.3;
+}
+article img {
+    position: right;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
