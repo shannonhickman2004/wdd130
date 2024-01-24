@@ -31,13 +31,15 @@ main {
     max-width: 840px;
 }
 aside {
+    position: relative;
     width: 20em;
     text-align: center;
-    position: relative
+    padding: 35;
 }
 aside h2 {
-    top: 47px;
+    top: 4px;
     left: 150px;
+    position: absolute
 }
 aside img {
     width: 200px;
