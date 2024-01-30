@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CSS Grid starting point</title>
+    <style>
+        body {
+            width: 90%;
+            max-width: 900px;
+            margin: 2em auto;
+            font: .9em/1.2 Arial, Helvetica, sans-serif;
+        }
+
+        .container > div {
+            border-radius: 5px;
+            padding: 10px;
+            background-color: rgb(207,232,220);
+            border: 2px solid rgb(79,185,227);
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            /* can also use grid-template-columns as grid-template-columns: repeat(3, 1fr) This will create 3 columns with same spacing */
+            /* can also use grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) This works because grid is creating as many 200-pixel columns as will fit into the container, then sharing whatever space is leftover among all the columns. The maximum is 1fr which, as we already know, distributes space evenly between tracks.*/
+            grid-auto-rows: minmax(100px, auto);
+            /* there is implicit as auto sized, which means large enough for their content. To give a size, you can use grid-auto-rows or grid-auto-columns Then if you add a minmax it keeps the minimum as the size, but will make it bigger if it needs to be*/
+            gap: 20px;
+
+
+        }
+        
+    </style>
+  </head>
+
+<body>
+    <h1>Simple grid example</h1>
+
+    <div class="container">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+        <div>Six</div>
+        <div>Seven</div>
+    </div>
+
+</body>
+
+</html>
