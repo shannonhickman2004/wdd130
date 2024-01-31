@@ -18,7 +18,7 @@ nav {
 nav a {
     color: white;
     display: block;
-    padding: 0.5rem
+    padding: 0.5rem;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
@@ -67,6 +67,7 @@ footer {
     background-color: #ddd;
     color: #000;
 }
+
 header, .grid, footer{
     max-width: 840px;
     margin: 0 auto;
