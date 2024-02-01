@@ -167,6 +167,8 @@ article {
 
 .article-image-container img {
     height: 200px;
+    margin-top: 6px;
+    margin-right: 12px;
 }
 
 div.hero {
@@ -185,7 +187,7 @@ footer {
 }
 footer img {
     margin: 0 0.25rem 0 1rem;
-    width: 50px;
+    width: 30px;
     height: auto;
     justify-content: end;
 }
