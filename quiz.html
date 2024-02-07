@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Protest+Strike&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/quiz.css">
+  </head>
+  <body>
+    <header>
+        <h1>Basic HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+                <label for="q1">1. What does the acronym HTML stand for?</label>
+                <input type="text" id="q1" name="q1">
+                <label for="q2">1. Explain the purpose of the CSS property "margin"?</label>
+                <textarea rows="4" id="q2" name="q2"></textarea>
+                <label for="q3">3. Which tag is used to create an unordered list in HTML?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>select one</option>
+                    <option value="ul">ul</option>
+                    <option value="ol">ol</option>
+                    <option value="li">li</option>
+                    <option value="dl">dl</option>
+                </select>
+                <label for="q4">4. How many heading levels are there in HTML?</label>
+                <input type="number" id="q4" name="q4">      
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>©️2024 | WDD 130 Quiz | Shannon Hickman</p>
+    </footer> 
+  </body>
+  </html>
