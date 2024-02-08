@@ -199,3 +199,57 @@ footer img {
     background-color: unset;
     text-decoration: none;
 }
+
+/*  Style the universal selector * rule to set the default margin to zero, padding to zero, and the box-sizing to border-box. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input [type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 40px 0;
+    background-color: #AFD3D9;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+}
+
+
+
+
