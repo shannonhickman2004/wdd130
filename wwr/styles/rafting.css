@@ -27,6 +27,9 @@ h1,h2 {
     color: var(--primary-color);
     text-align: center;
 }
+h3 { font-family: var(--heading-font);
+    color: #000000;
+    text-align: center;}
 
 header {
     margin: 1rem auto;
@@ -112,6 +115,15 @@ nav a:hover {
     display: flex;
     max-width: 940px;
 }
+.clients-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;    
+}
+.client-container div{
+    flex: 1;
+}
 
 figure {
     border: thin #000000 solid;
@@ -182,8 +194,9 @@ footer {
 
 .footer-container {
     display: grid;
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 1fr auto;
     text-align: center;
+    align-items: center;
 }
 footer img {
     margin: 0 0.25rem 0 1rem;
@@ -231,23 +244,22 @@ input, select, textarea {
 }
 
 input [type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
+    width: 44px;
+    height: 44px;
+    vertical-align: left;
 }
 
-button {
-    margin: 40px 0;
+button{
+    margin: 40px auto;
     background-color: #AFD3D9;
     color: #fff;
     border: none;
-    border-radius: .5rem;
+    border-radius: .75rem;
     padding: .75rem;
-    font-size: 1.2rem;
+    font-size: 2rem;;
     display: flex;
     justify-content: center;
     align-items: center; 
-    border: 0;
 }
 
 button:hover {
