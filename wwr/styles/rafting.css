@@ -244,7 +244,7 @@ form {
     display: grid;
 }
 
-label {
+label, .label {
     text-align: left;
     padding-right: 1rem;
     font-size: 18px;
