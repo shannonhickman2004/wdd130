@@ -14,7 +14,18 @@
     --nav-hover-link-color: #D3F3EE;
     --nav-hover-background-color: #1d2020;
 }
-
+.wireframe-button {
+    margin: 40px auto;
+    background-color: #AFD3D9;
+    color: #fff;
+    border: none;
+    border-radius: .75rem;
+    padding: .75rem;
+    font-size: 2rem;;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -281,17 +292,6 @@ button:hover {
     border: 0;
 }
 
-.wireframe-button {
-    margin: 40px auto;
-    background-color: #AFD3D9;
-    color: #fff;
-    border: none;
-    border-radius: .75rem;
-    padding: .75rem;
-    font-size: 2rem;;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
+
 
 
