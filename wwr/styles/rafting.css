@@ -337,7 +337,7 @@ button:hover {
 .picture-trip {
     grid-column: 1/3;
     grid-row: 1;
-    width: 100%8;
+    width: auto;
 }
 .button-container {
     grid-column: 4;
@@ -393,8 +393,8 @@ button:hover {
 }
 .trip6 {
     grid-column: 4;
-    grid-row: 3;
-#This is CSS for my table   
+    grid-row: 3; 
+
 }
 table {
     width: 100%;
