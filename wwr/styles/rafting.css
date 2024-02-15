@@ -419,14 +419,7 @@ th {
 }
 
 .image-headings {
-    position: relative;
-    height: 100vh;
-    /* background: url('rafting-image.jpg') center/cover no-repeat; Replace 'rafting-image.jpg' with the actual image URL */
-    /* color: #fff; Set text color to be visible on the image */
-    /* display: flex; */
-    /* flex-direction: column; */
     align-items: center;
-    justify-content: center;
     text-align: center;
     grid-column: 1;
     grid-row: 1/2;
