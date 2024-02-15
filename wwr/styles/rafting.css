@@ -426,8 +426,6 @@ th {
 }
 
 .rafting-info {
-    max-width: 600px;
-    margin: 0 auto;
     font-size: 1.2em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
@@ -458,5 +456,6 @@ th {
 .about-wrapper h1 {
     position: relative;
     top: 67px;
+    color: white;
 }
 
