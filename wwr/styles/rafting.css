@@ -185,7 +185,7 @@ article {
 }
 
 .article-container {
-    background-color: #AFD3D9;
+    background-color: #2A545A;
     ;
     display: grid;
 }
@@ -241,11 +241,6 @@ footer img {
     text-decoration: none;
 }
 
-* {
-    /* margin: 0; */
-    /* padding: 0; */
-    /* box-sizing: border-box; */
-}
 
 
 form {
@@ -411,14 +406,6 @@ th, td {
 
 th {
     background-color: #f2f2f2;
-}
-.about-wrapper {
-    /* position: relative; */
-    /* color: white; */
-    /* width: 100%; */
-    /* text-align: center; */
-    /* opacity: .75; */
-    /* background-color: var(--nav-link-color); */
 }
 
 .about-wrapper h1 {
