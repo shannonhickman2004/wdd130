@@ -281,7 +281,6 @@ button, .trip-button {
     border-radius: .75rem;
     padding: .75rem;
     font-size: 2rem;
-    ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -347,12 +346,7 @@ button:hover {
      
 }
 
-.trip-button {
-    background-color: var(--primary-color);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+
 
 }
 .trip-pictures {
