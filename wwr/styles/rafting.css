@@ -273,7 +273,7 @@ input [type="checkbox"] {
     height: 44px;
 }
 
-button {
+button, .trip-button {
     margin: 40px auto;
     background-color: #2A545A;
     color: #fff;
