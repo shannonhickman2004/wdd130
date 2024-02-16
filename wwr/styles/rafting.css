@@ -275,7 +275,7 @@ input [type="checkbox"] {
 
 button {
     margin: 40px auto;
-    background-color: #AFD3D9;
+    background-color: #2A545A;
     color: #fff;
     border: none;
     border-radius: .75rem;
@@ -407,6 +407,7 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
 
 .about-wrapper h1 {
     position: relative;
