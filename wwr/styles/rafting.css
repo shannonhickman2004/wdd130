@@ -157,7 +157,7 @@ figure {
     justify-content: space-around;
     margin: 8px;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 figcaption {
